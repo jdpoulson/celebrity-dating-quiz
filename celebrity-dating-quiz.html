@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating Quiz</h1>
+
+      <p>To give you a celebrity, we need to know a little about you:</p>
+
+      <form id="celebrity">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="hair-color">Hair Color</label>
+        <select id="hair-color">
+          <option value="brown">Brown</option>
+          <option value="black">Black</option>
+          <option value="red">Red</option>
+        </select>
+
+        <button type="submit" class="btn">Calculate my celebrity</button>
+      </form>
+
+      <div id="quote">
+        <div class="wayne-brady">
+          <p>You should date Wayne Brady</p>
+        </div>
+        <div class="britney-spears">
+          <p>You should date Britney Spears</p>
+        </div>
+        <div class="john-goodman">
+          <p>You should date John Goodman</p>
+        </div>
+        <div class="jim-carry">
+          <p>You should date Jim Carry</p>
+        </div>
+        <div class="no-date">
+          <p>Maybe you shouldn't date</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
